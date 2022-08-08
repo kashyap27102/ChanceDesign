@@ -1,0 +1,153 @@
+.container{
+    display: flex;
+    max-height: 100vh;
+}
+.design-wrapper{
+    margin: auto;
+    width: 400px;
+    background-color: #ecfcfd;
+    
+}
+.counter{
+    display: inline-block;
+    background-color: #ff9c33;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+    padding: 5px;
+    font-size: small;
+}
+.connection-box .counter{
+    /* padding: 5px 10px; */
+}
+.message-box .counter{
+    /* padding: 5px 14px; */
+}
+
+.connection-box{
+    padding: 20px;
+}
+.connection-profile{
+    height: 60px;
+    width: 60px;
+}
+.connections{
+    display: flex;
+    overflow-x: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.connections::-webkit-scrollbar{
+    display: none;
+}
+
+.connection{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.connection-profile{
+    margin-bottom: 10px;
+}
+.profile-photo{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.message-box{
+    background-color: white;
+    padding: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.message-box-header{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.left-side ,.right-side{
+    flex: 1;
+}
+.right-side{
+    text-align: end;
+}
+.search{
+    border: none;
+    width: 70%;
+    padding: 5px;
+    font-family: 'poppins', sans-serif;
+    color: black;
+    outline: none;
+}
+.search::placeholder{
+    color: black;
+}
+.search:focus{
+    border: none;
+}
+.searchIcon{
+    margin-right: 5px;
+}
+.chats{
+    height: 400px;
+    overflow-y: auto;
+    
+}
+.chats::-webkit-scrollbar{
+    display:none;
+}
+.chat{
+    display: flex;
+    align-items: center;
+}
+.start{
+    flex: 0.75;
+    display: flex;
+}
+.start .connection-profile {
+    align-items: center;
+    margin: 0px;
+    height: 70px;
+    width: 70px;
+}
+.end{
+    flex:0.5;
+    flex-direction: row;
+    padding: 10px;
+    text-align: end;
+}
+.end .counter {
+    background-color: #ecfcfd;
+    color: black;
+    display: inline-block;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.middle{
+    flex:3;
+    padding: 10px;
+}
+.middle p{
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.connection-name{
+    font-weight: 500;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.latest-message{
+    font-size: small;
+    margin: 0px;
+}
+.time{
+    color: gray;
+    font-size: small;
+    margin: 0px;
+}
