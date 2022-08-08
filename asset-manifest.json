@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ChanceDesign/static/css/main.8c55c22f.css",
+    "main.js": "/ChanceDesign/static/js/main.89d602da.js",
+    "index.html": "/ChanceDesign/index.html",
+    "main.8c55c22f.css.map": "/ChanceDesign/static/css/main.8c55c22f.css.map",
+    "main.89d602da.js.map": "/ChanceDesign/static/js/main.89d602da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c55c22f.css",
+    "static/js/main.89d602da.js"
+  ]
+}
